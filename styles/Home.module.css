@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 50px;
+  padding-top: 20px;
+  margin-top: -100px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  color: rgb(49, 49, 49);
+}
+
+.container span {
+  font-style: italic;
+  text-decoration-line: underline;
+}
