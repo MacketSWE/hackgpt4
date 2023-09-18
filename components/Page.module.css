@@ -1,17 +1,27 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100vh;
+  padding: 50px;
   width: 100vw;
-  background-color: rgb(242, 242, 242);
   color: rgb(20, 20, 20);
+  background: url("/images/bg-mobile.jpg") no-repeat center center;
+  background-size: cover;
+  overflow: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    background: url("/images/bg-full.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 0;
+  }
 }
 
 .content {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  width: 90%;
+  max-width: 700px;
 }

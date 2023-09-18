@@ -3,21 +3,23 @@ import styles from "./Page.module.css";
 
 interface Props {
   children: any;
+  description: string;
+  author?: string;
+  keywords?: string;
 }
 
-export const Page = ({ children }: Props) => {
+export const Page = ({ children, description, author, keywords }: Props) => {
   return (
     <>
       <Head>
         <title>HackGPT4.com</title>
-        <meta
-          name="description"
-          content="Explore the intricacies of ChatGPT-4, OpenAI's latest language model. Dive deep into its features, improvements over previous versions, and the myriad applications that redefine AI-driven communication and research"
-        />
+        <meta name="description" content={description} />
+        <meta name="keywords" content={keywords} />
+        <meta name="author" content={author} />
         <link rel="icon" href="/favicon.ico" />
         {/* eslint-disable */}
         {/* Global Site Tag (gtag.js) - Google Analytics */}
-        <script
+        {/* <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=G-RW7YPRWHKR`}
         />
@@ -32,7 +34,7 @@ export const Page = ({ children }: Props) => {
             });
           `,
           }}
-        />
+        /> */}
         {/* eslint-enable */}
       </Head>
       <div className={styles.container}>

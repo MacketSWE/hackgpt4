@@ -31,3 +31,31 @@ For those inclined towards musical compositions, ChatGPT offers the capability t
 
 In summation, while ChatGPT demonstrates remarkable potential in artistic ventures, its output can swing between the realms of poetic brilliance and abstract peculiarity.
 `;
+
+const four = `
+**What is ChatGPT?**
+
+ChatGPT is a state-of-the-art AI-driven natural language processing tool that facilitates human-like conversations. Leveraging sophisticated algorithms and a vast database, ChatGPT can assist users in diverse tasks ranging from answering queries to aiding in content creation like emails, essays, and even coding.
+
+**How to use ChatGPT: What you need to know now**
+
+1. **Interactivity**: Engage with ChatGPT just like you would with another human. Type your questions or statements, and the system will provide responses in real-time.
+2. **Versatility**: ChatGPT can be employed for a wide array of tasks. Whether it's fact-checking, brainstorming ideas, or even learning a new subject, ChatGPT is here to assist.
+3. **Limitations**: While highly advanced, ChatGPT is still a machine. It operates based on the data it has been trained on. Always validate important information from trusted sources.
+4. **Pricing**: While the basic version is accessible to the public at no charge, the premium version, ChatGPT Plus, comes with a subscription fee. It often offers enhanced features and faster response times.
+
+**Who made ChatGPT?**
+
+Developed and released by OpenAI, ChatGPT was introduced to the world on November 30, 2022. OpenAI, a leading entity in the domain of AI research, is known for pioneering multiple AI solutions.
+
+**Also:** If you're in the academic realm, it's worth exploring the broader spectrum of AI tools that can be indispensable for school. Generative AI tools, for instance, can be leveraged for tasks like content creation, brainstorming, and more.
+
+**OpenAI's Other Notable Creations:**
+
+1. **DALL-E 2**: A successor to the original DALL-E, this AI-powered tool is capable of crafting intricate and creative visual artworks based on textual prompts.
+2. **Whisper**: A state-of-the-art automatic speech recognition system designed by OpenAI to convert spoken language into written text efficiently.
+
+**How can you access ChatGPT?**
+
+Gaining access to ChatGPT is straightforward. Navigate to [chat.openai.com](https://chat.openai.com), where you'll be prompted to create an OpenAI account or log in if you already have one. Once logged in, you can immediately start interacting with ChatGPT. Remember, while the basic functionalities are available for free, premium features might require a subscription to ChatGPT Plus.
+`;
