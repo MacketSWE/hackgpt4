@@ -4,7 +4,15 @@ import styles from "../../../styles/Article.module.css";
 
 const Article = () => {
   return (
-    <Page description="" keywords="" author="">
+    <Page
+      description="The creative prowess of ChatGPT in crafting song lyrics and poetry
+      is both intriguing and, at times, unpredictable. An illustrative
+      example is when we requested the AI to pen a song revolving around
+      the adventurous theme of a dog given the monumental task of
+      colonizing Mars."
+      keywords="ai, open ai gpt-4, openai, gpt-4, gpt4, gpt, chatbot, chatbots, chatbot ai, chatbot online, chatbot website, chatbot messenger, chatbot facebook, chatbot for website, chatbot for facebook, chatbot for messenger, chatbot messenger facebook, chatbot messenger online, chatbot messenger website, chatbot messenger ai, chatbot messenger bot, chatbot messenger free, chatbot messenger free, chatbot messenger"
+      author="Stockholm Mobile & Web"
+    >
       <div className={styles.container}>
         <div>HackGPT4.com</div>
         <div className={styles.description}>

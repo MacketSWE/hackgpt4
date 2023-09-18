@@ -4,7 +4,13 @@ import styles from "../../../styles/Article.module.css";
 
 const Article = () => {
   return (
-    <Page description="" keywords="" author="">
+    <Page
+      description="ChatGPT is a state-of-the-art AI-driven natural language processing
+      tool that facilitates human-like conversations. Leveraging
+      sophisticated algorithms and a vast database."
+      keywords="ai, open ai gpt-4, openai, gpt-4, gpt4, gpt, chatbot, chatbots, chatbot ai, chatbot online, chatbot website, chatbot messenger, chatbot facebook, chatbot for website, chatbot for facebook, chatbot for messenger, chatbot messenger facebook, chatbot messenger online, chatbot messenger website, chatbot messenger ai, chatbot messenger bot, chatbot messenger free, chatbot messenger free, chatbot messenger"
+      author="Stockholm Mobile & Web"
+    >
       <div className={styles.container}>
         <div>HackGPT4.com</div>
         <div className={styles.description}>
