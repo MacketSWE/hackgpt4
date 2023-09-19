@@ -1,11 +1,10 @@
 .article {
   margin-top: 100px;
-  overflow-y: scroll;
   text-shadow: 0 0 20px rgba(202, 202, 202, 0.914);
   color: rgb(0, 0, 0);
   background-color: rgba(255, 255, 255, 0.843);
   padding: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .container {

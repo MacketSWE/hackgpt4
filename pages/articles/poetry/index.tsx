@@ -13,13 +13,6 @@ const Article = () => {
       keywords="ai, open ai gpt-4, openai, gpt-4, gpt4, gpt, chatbot, chatbots, chatbot ai, chatbot online, chatbot website, chatbot messenger, chatbot facebook, chatbot for website, chatbot for facebook, chatbot for messenger, chatbot messenger facebook, chatbot messenger online, chatbot messenger website, chatbot messenger ai, chatbot messenger bot, chatbot messenger free, chatbot messenger free, chatbot messenger"
       author="Stockholm Mobile & Web"
     >
-      <div className={styles.container}>
-        <div>HackGPT4.com</div>
-        <div className={styles.description}>
-          This domain is for sale! Contact <span>hello@smwapps.com</span> for
-          details
-        </div>
-      </div>
       <div className={styles.article}>
         <Link href="/">Home</Link>
         <div>

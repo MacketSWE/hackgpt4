@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  padding: 50px;
   width: 100vw;
   color: rgb(20, 20, 20);
   background: url("/images/bg-mobile.jpg") no-repeat center center;
@@ -11,17 +10,18 @@
   overflow: auto;
 }
 
-@media (min-width: 768px) {
-  .container {
-    background: url("/images/bg-full.jpg") no-repeat center center;
-    background-size: cover;
-    padding: 0;
-  }
-}
-
 .content {
   display: flex;
   flex-direction: column;
   width: 90%;
-  max-width: 700px;
+  max-width: 800px;
+  height: 100vh;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    background: url("/images/bg-full.jpg") no-repeat center center;
+    background-size: cover;
+  }
 }

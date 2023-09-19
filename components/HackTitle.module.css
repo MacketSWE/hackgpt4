@@ -1,0 +1,18 @@
+.container {
+  margin-top: 100px;
+  color: yellow;
+  align-self: flex-start;
+}
+
+.container span {
+  font-style: italic;
+  text-decoration-line: underline;
+}
+
+.container h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.714);
+}

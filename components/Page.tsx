@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "./Page.module.css";
+import { HackTitle } from "./HackTitle";
 
 interface Props {
   children: any;
@@ -38,7 +39,10 @@ export const Page = ({ children, description, author, keywords }: Props) => {
         {/* eslint-enable */}
       </Head>
       <div className={styles.container}>
-        <div className={styles.content}>{children}</div>
+        <div className={styles.content}>
+          <HackTitle />
+          {children}
+        </div>
       </div>
     </>
   );
